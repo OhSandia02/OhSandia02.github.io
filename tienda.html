@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" type="text/css" href="tienda.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <center><h1>Carrito de Compras</h1></center>
+      
+    </div>
+  </header>
+  
+
+<body background="fondo.png">
+
+  <main>
+    <section class="cart">
+      <div class="container">
+        <h2>Bienvenido al carrito de compras</h2>
+        <ul id="cart-items" class="cart-items">
+          <li>
+            <div class="item-selection">
+              <input type="checkbox" id="product1" data-price="10.00">
+              <label for="product1">
+                <img src="producto1.png" alt="Producto 1" width="300">
+                <div class="item-details">
+                  <h3>Producto 1</h3>
+                  <p>Precio: $20.00</p>
+                  <div class="quantity">
+                    <label for="quantity1">Cantidad:</label>
+                    <input type="number" id="quantity1" min="1" value="1">
+                  </div>
+                </div>
+              </label>
+            </div>
+            
+          </li>
+         
+        <div class="cart-total">
+          <p>Total: <span id="total-price">$0.00</span></p>
+          <a href="pagar.html">
+          <button class="checkout">Pagar</button> 
+        </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      
+    </div>
+  </footer>
+
+  <script src="tienda.js"></script>
+</body>
+</html>

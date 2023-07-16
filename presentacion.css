@@ -1,0 +1,17 @@
+
+
+
+
+.subhead {
+	width: 90%;
+	margin: 1em auto;
+	font-family: "Lora", serif;
+	text-align: center;
+	font-weight: 400;
+	color: var(--grey-text);
+}
+.subhead::after {
+	content: "";
+	display: none;
+}
+
